@@ -1,0 +1,11 @@
+.ds-mobile-page {
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  background: var(--color-bg-page);
+  min-height: 100vh;
+}

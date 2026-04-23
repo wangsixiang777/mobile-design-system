@@ -1,0 +1,45 @@
+:root {
+  --font-family-base:
+    "Inter", "PingFang SC", "Noto Sans SC", -apple-system, "Segoe UI", sans-serif;
+
+  --color-brand-primary: #1677ff;
+  --color-brand-primary-light: #409eff;
+  --color-status-success: #52c41a;
+  --color-status-warning: #e6a23c;
+  --color-status-danger: #f56c6c;
+  --color-status-info: #909399;
+
+  --color-status-success-bg: #f0f9eb;
+  --color-status-warning-bg: #fdf6ec;
+  --color-status-danger-bg: #fef0f0;
+  --color-status-info-bg: #f4f4f5;
+  --color-brand-primary-bg: #e8f2ff;
+
+  --color-text-primary: #1c1e21;
+  --color-text-secondary: #5c6269;
+  --color-text-muted: #a0a5ab;
+  --color-bg-page: #f5f7fa;
+  --color-bg-card: #ffffff;
+  --color-border-default: #e4e7ed;
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 20px;
+
+  --duration-fast: 150ms;
+  --duration-normal: 300ms;
+
+  --shadow-card: 0 4px 16px rgba(28, 30, 33, 0.08);
+  --shadow-elevated: 0 8px 24px rgba(28, 30, 33, 0.12);
+}

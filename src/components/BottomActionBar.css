@@ -1,0 +1,14 @@
+.ds-bottom-action-bar {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm);
+  border-top: 1px solid var(--color-border-default);
+  background: var(--color-bg-card);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.ds-bottom-action-bar__btn {
+  flex: 1;
+}

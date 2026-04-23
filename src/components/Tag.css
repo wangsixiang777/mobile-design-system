@@ -1,0 +1,33 @@
+.ds-tag {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-sm);
+  padding: 2px 8px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+}
+
+.ds-tag--primary {
+  background: var(--color-brand-primary-bg);
+  color: var(--color-brand-primary);
+}
+
+.ds-tag--success {
+  background: var(--color-status-success-bg);
+  color: var(--color-status-success);
+}
+
+.ds-tag--warning {
+  background: var(--color-status-warning-bg);
+  color: var(--color-status-warning);
+}
+
+.ds-tag--danger {
+  background: var(--color-status-danger-bg);
+  color: var(--color-status-danger);
+}
+
+.ds-tag--info {
+  background: var(--color-status-info-bg);
+  color: var(--color-status-info);
+}

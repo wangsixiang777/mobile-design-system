@@ -1,0 +1,31 @@
+.ds-alert {
+  border-radius: var(--radius-md);
+  padding: 12px var(--spacing-md);
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
+}
+
+.ds-alert__title {
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.ds-alert--info {
+  background: var(--color-brand-primary-bg);
+  color: var(--color-brand-primary);
+}
+
+.ds-alert--success {
+  background: var(--color-status-success-bg);
+  color: var(--color-status-success);
+}
+
+.ds-alert--warning {
+  background: var(--color-status-warning-bg);
+  color: var(--color-status-warning);
+}
+
+.ds-alert--danger {
+  background: var(--color-status-danger-bg);
+  color: var(--color-status-danger);
+}

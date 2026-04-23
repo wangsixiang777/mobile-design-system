@@ -1,0 +1,25 @@
+.ds-page-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.ds-page-section__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 28px;
+}
+
+.ds-page-section__title {
+  margin: 0;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.ds-page-section__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}

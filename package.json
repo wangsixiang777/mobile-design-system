@@ -1,0 +1,35 @@
+{
+  "name": "@workspace/mobile-design-system",
+  "version": "0.1.0",
+  "description": "Enterprise mobile design system component library.",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./tokens.css": "./dist/tokens.css"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm,cjs --clean && copy src\\tokens.css dist\\tokens.css",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "echo \"No linter configured yet\""
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}
